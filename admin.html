@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Buat Puzzle</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Admin - Buat Puzzle Baru</h1>
+    <form id="createForm">
+      <input type="text" id="puzzleName" placeholder="Kode Puzzle (contoh: soeharto)" required><br><br>
+      <input type="file" id="puzzleImage" accept="image/*" required><br><br>
+      <input type="number" id="timer" placeholder="Timer (detik)" required><br><br>
+      <textarea id="description" placeholder="Deskripsi Puzzle" required></textarea><br><br>
+      <button type="submit">Generate Puzzle</button>
+    </form>
+  </div>
+  <script src="scripts/admin.js"></script>
+</body>
+</html>
